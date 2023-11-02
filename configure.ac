@@ -51,6 +51,7 @@ AM_SILENT_RULES([yes])
 
 # Choose the C compiler
 AC_PROG_CC
+AC_PROG_CXX
 # AC_PROG_CC_STDC was merged in AC_PROG_CC in autoconf 2.70
 m4_version_prereq([2.70], [], [AC_PROG_CC_STDC])
 
